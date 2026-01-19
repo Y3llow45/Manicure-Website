@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools & Machines - Nail Art Studio</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">💅</span>
+                <span class="logo-text">Nail Art Studio</span>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="active">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tools.html">Tools & Machines</a></li>
+                            <li><a href="styles.html">Nail Styles</a></li>
+                            <li class="dropdown-submenu">
+                                <a href="#">Treatments</a>
+                                <ul class="submenu">
+                                    <li><a href="#">Gel Nails</a></li>
+                                    <li><a href="#">Acrylic Nails</a></li>
+                                    <li><a href="#">Nail Art</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Learn</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="instructions.html">DIY Manicure</a></li>
+                            <li><a href="#">Tips & Tricks</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Tools & Machines</h1>
+            <p>Professional equipment for perfect manicures</p>
+        </section>
+
+        <section class="filter-section">
+            <div class="search-container">
+                <input type="text" class="search-box" id="searchInput" placeholder="Search tools...">
+                <select class="category-select" id="categorySelect">
+                    <option value="all">All Categories</option>
+                    <option value="machines">Machines</option>
+                    <option value="files">Files & Buffers</option>
+                    <option value="brushes">Brushes</option>
+                    <option value="accessories">Accessories</option>
+                    <option value="lamps">UV/LED Lamps</option>
+                </select>
+            </div>
+        </section>
+
+        <div class="products-grid" id="productsGrid">
+            <div class="product-card" data-category="machines" data-name="Electric Nail Drill">
+                <div class="product-image">
+                    <img src="images/drill.jpg" alt="Electric Nail Drill">
+                    <span class="hover-price">$45.99</span>
+                </div>
+                <div class="product-info">
+                    <h3>Electric Nail Drill</h3>
+                    <p>Professional 20000 RPM nail drill with adjustable speed for acrylic and gel nails.</p>
+                    <span class="price">$45.99</span>
+                    <span class="category-tag">Machines</span>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lamps" data-name="UV LED Nail Lamp">
+                <div class="product-image">
+                    <img src="images/lamp.jpg" alt="UV LED Nail Lamp">
+                    <span class="hover-price">$35.99</span>
+                </div>
+                <div class="product-info">
+                    <h3>UV LED Nail Lamp</h3>
+                    <p>48W dual light source lamp for fast curing of all gel polish types.</p>
+                    <span class="price">$35.99</span>
+                    <span class="category-tag">UV/LED Lamps</span>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="files" data-name="Crystal Glass Nail File Set">
+                <div class="product-image">
+                    <img src="images/file.jpg" alt="Glass Nail File">
+                    <span class="hover-price">$12.99</span>
+                </div>
+                <div class="product-info">
+                    <h3>Crystal Glass Nail File Set</h3>
+                    <p>Set of 3 premium glass files for precise shaping without nail damage.</p>
+                    <span class="price">$12.99</span>
+                    <span class="category-tag">Files & Buffers</span>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="brushes" data-name="Nail Art Brush Set">
+                <div class="product-image">
+                    <img src="images/brushes.jpg" alt="Nail Art Brushes">
+                    <span class="hover-price">$18.99</span>
+                </div>
+                <div class="product-info">
+                    <h3>Nail Art Brush Set</h3>
+                    <p>15-piece professional brush set for detailed nail art designs.</p>
+                    <span class="price">$18.99</span>
+                    <span class="category-tag">Brushes</span>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="accessories" data-name="Cuticle Pusher Set">
+                <div class="product-image">
+                    <img src="images/cuticle.jpg" alt="Cuticle Pusher">
+                    <span class="hover-price">$8.99</span>
+                </div>
+                <div class="product-info">
+                    <h3>Cuticle Pusher Set</h3>
+                    <p>Stainless steel double-ended cuticle pusher and remover set.</p>
+                    <span class="price">$8.99</span>
+                    <span class="category-tag">Accessories</span>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="files" data-name="Buffer Block Kit">
+                <div class="product-image">
+                    <img src="images/buffer.jpg" alt="Buffer Block">
+                    <span class="hover-price">$9.99</span>
+                </div>
+                <div class="product-info">
+                    <h3>Buffer Block Kit</h3>
+                    <p>4-sided buffer blocks for smoothing and shining natural nails.</p>
+                    <span class="price">$9.99</span>
+                    <span class="category-tag">Files & Buffers</span>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="machines" data-name="Dust Collector">
+                <div class="product-image">
+                    <img src="images/dust-collector.jpg" alt="Nail Dust Collector">
+                    <span class="hover-price">$55.99</span>
+                </div>
+                <div class="product-info">
+                    <h3>Nail Dust Collector</h3>
+                    <p>Powerful vacuum with filter for clean and healthy workspace.</p>
+                    <span class="price">$55.99</span>
+                    <span class="category-tag">Machines</span>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="accessories" data-name="Nail Clipper Set">
+                <div class="product-image">
+                    <img src="images/clipper.jpg" alt="Nail Clipper">
+                    <span class="hover-price">$14.99</span>
+                </div>
+                <div class="product-info">
+                    <h3>Nail Clipper Set</h3>
+                    <p>Professional grade stainless steel clippers for all nail types.</p>
+                    <span class="price">$14.99</span>
+                    <span class="category-tag">Accessories</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Nail Art Studio</h4>
+                <p>Your destination for beautiful nails and nail art inspiration.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tools.html">Tools</a></li>
+                    <li><a href="styles.html">Styles</a></li>
+                    <li><a href="instructions.html">DIY Guide</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Pinterest</a>
+                    <a href="#" class="social-link">YouTube</a>
+                    <a href="#" class="social-link">TikTok</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: hello@nailartstudio.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Nail Art Studio. All rights reserved.</p>
+            <p>Created by <strong>Your Name Here</strong></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
