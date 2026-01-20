@@ -28,7 +28,7 @@ img {
 
 /* Header Styles */
 header {
-    background-color: #f8e1e7;
+    background-color: white;
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -52,7 +52,7 @@ header {
 }
 
 .logo-icon {
-    font-size: 32px;
+    width: 40px;
 }
 
 .logo-text {
@@ -73,7 +73,7 @@ header {
 
 .nav-menu > li > a {
     padding: 10px 15px;
-    color: #555;
+    color: #000000;
     font-weight: 500;
     transition: color 0.3s;
 }
