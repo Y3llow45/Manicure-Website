@@ -280,7 +280,7 @@ footer {
 }
 
 .footer-section p {
-    color: #aaa;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -289,12 +289,12 @@ footer {
 }
 
 .footer-section ul li a {
-    color: #aaa;
+    color: #ffffff;
     transition: color 0.3s;
 }
 
 .footer-section ul li a:hover {
-    color: #f8e1e7;
+    color: #d4678c;
 }
 
 .social-links {
@@ -304,12 +304,12 @@ footer {
 }
 
 .social-link {
-    color: #aaa;
+    color: #ffffff;
     transition: color 0.3s;
 }
 
 .social-link:hover {
-    color: #f8e1e7;
+    color: #d4678c;
 }
 
 .footer-bottom {
@@ -320,7 +320,7 @@ footer {
 }
 
 .footer-bottom p {
-    color: #aaa;
+    color: #ffffff;
     margin: 5px 0;
 }
 
@@ -411,7 +411,6 @@ footer {
 
 .product-image {
     position: relative;
-    height: 220px;
     overflow: hidden;
 }
 
