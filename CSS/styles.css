@@ -407,10 +407,6 @@ footer {
     transition: filter 0.3s;
 }
 
-.product-card:hover .product-image img {
-    /*nothing;*/
-}
-
 .hover-price {
     position: absolute;
     top: 50%;
@@ -509,12 +505,13 @@ footer {
 .about-info .bio {
     margin-top: 20px;
     color: #666;
-    line-height: 1.8;
+    line-height: 2.6;
+    font-size: 18px;
     font-style: italic;
 }
 
 .cert {
-    margin-top: 20px;
+    margin-top: 30px;
     width: 400px;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -549,7 +546,7 @@ footer {
 /* Styles Gallery Page */
 .styles-grid {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 0 20px 60px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -569,11 +566,11 @@ footer {
     height: 280px;
     object-fit: cover;
     transition: filter 0.3s, transform 0.3s;
+    transform: scale(1.05);
 }
 
 .style-card:hover img {
     filter: brightness(0.5);
-    transform: scale(1.05);
 }
 
 .style-overlay {
