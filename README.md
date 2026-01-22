@@ -1,2 +1,4 @@
 # Manicure-Website
-Manicure-Website-with-AI
+
+I made this project for a friend
+Html, css, js and some images
